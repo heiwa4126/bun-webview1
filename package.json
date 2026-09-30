@@ -1,0 +1,19 @@
+{
+	"name": "bun-webview1",
+	"private": true,
+	"type": "module",
+	"module": "index.ts",
+	"scripts": {
+		"set-chrome-path": "bash script/set-chrome-path.sh",
+		"format": "oxfmt",
+		"lint": "oxlint",
+		"lint-tsc": "tsc --noEmit",
+		"check": "oxfmt && oxlint --fix"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^7"
+	}
+}
