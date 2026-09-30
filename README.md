@@ -41,13 +41,13 @@ bun ci
 To run:
 
 ```bash
-bun index.ts
+bun run shot1
 ```
 
 ### 実行例
 
 ```console
-$ bun index.ts
+$ bun run shot1
 
 [0930/133715.673565:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1660] drmGetDevices2() has not found any devices
 [0930/133715.674706:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
