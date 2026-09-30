@@ -77,4 +77,6 @@ cron で実行するときは
 export BUN_CHROME_PATH=...
 ```
 
-にする。または TypeScript 内にロジックを書く。
+にする。
+
+または TypeScript 内にロジックを書く ⇒ 実装した。`src/shot2.ts` 参照

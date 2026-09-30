@@ -2,8 +2,10 @@
 	"name": "bun-webview1",
 	"private": true,
 	"type": "module",
-	"module": "index.ts",
+	"module": "src/index.ts",
 	"scripts": {
+		"shot1": "bun run src/index.ts",
+		"shot2": "bun run src/shot2.ts",
 		"set-chrome-path": "bash script/set-chrome-path.sh",
 		"format": "oxfmt",
 		"lint": "oxlint",
