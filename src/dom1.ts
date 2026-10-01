@@ -14,6 +14,12 @@ await using view = new Bun.WebView({
 
 await view.navigate("https://example.com");
 
+// // 指定ミリ秒（例: 3000ms = 3秒）待機
+// await Bun.sleep(3000);
+
+// レンダリング完了がわかる目印がDOM上に出現する場合は、
+// 別の方法あり。
+
 // DOMのルート要素（<html>...</html>）全体のHTMLを取得
 const html = await view.evaluate("document.documentElement.outerHTML");
 
